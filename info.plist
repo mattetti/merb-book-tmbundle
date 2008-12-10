@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>merb-book</string>
+	<key>ordering</key>
+	<array>
+		<string>BEA07956-69F1-4302-A7E7-61D7B8CE492C</string>
+		<string>7A2B0D0D-ED78-4733-8818-EEE30FFAB231</string>
+		<string>79737D33-47B5-4D07-BCF3-CF0BD3F4B399</string>
+		<string>54C469E5-A148-4A11-8FD1-7E477FF815B7</string>
+		<string>D23C02C5-BC12-414A-A9F5-E08F23F74CE4</string>
+		<string>95D9DEEF-436D-4D4A-9CAA-24B59109B1F3</string>
+	</array>
+	<key>uuid</key>
+	<string>7A28E28B-243E-4597-BDA2-4F8B48415F76</string>
+</dict>
+</plist>

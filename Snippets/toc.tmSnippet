@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>* This will become a table of contents (this text will be scraped).
+{:toc}</string>
+	<key>name</key>
+	<string>toc</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>toc</string>
+	<key>uuid</key>
+	<string>95D9DEEF-436D-4D4A-9CAA-24B59109B1F3</string>
+</dict>
+</plist>

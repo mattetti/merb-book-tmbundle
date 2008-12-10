@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${3:&lt;!-- put the following line at the bottom of the page. --&gt;}
+*[${1:abbreviation}]: ${2:definition}
+
+</string>
+	<key>name</key>
+	<string>abbreviation</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>abb</string>
+	<key>uuid</key>
+	<string>54C469E5-A148-4A11-8FD1-7E477FF815B7</string>
+</dict>
+</plist>
