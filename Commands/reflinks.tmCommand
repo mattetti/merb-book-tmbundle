@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+links = []
+lineLen = 24
+spaces = lineLen - 3
+
+while line = gets
+  ex = /\[(.*?)\]\[\]/
+  line.scan(ex).each do |m|
+    links &lt;&lt; m[0]
+  end
+end
+
+links.sort{|a, b| a.downcase &lt;=&gt; b.downcase}.each do |l|
+  puts "[#{l}]:#{' '*([spaces-l.length,0].max)}"
+end
+</string>
+	<key>fallbackInput</key>
+	<string>document</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Extract links</string>
+	<key>output</key>
+	<string>afterSelectedText</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>reflinks</string>
+	<key>uuid</key>
+	<string>080A9F7E-45B4-406E-B4E2-7CEC958E4020</string>
+</dict>
+</plist>
