@@ -18,7 +18,7 @@ Merb book source : http://github.comn/mattetti/merb-book
  
 * add a reference
 
- Sype ``ref`` and then press tab, enter the reference code you want to use, then press tab again, type the reference text, press tab again, delete the comment and move the reference text line to the bottom of the page.
+ Type ``ref`` and then press tab, enter the reference code you want to use, then press tab again, type the reference text, press tab again, delete the comment and move the reference text line to the bottom of the page.
  
 * ruby code syntax
 
