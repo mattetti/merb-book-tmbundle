@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[^${1:ref code}]:
+	<string>[^${1:ref-code}]
 
 ${3:&lt;!-- put the following line at the bottom of the page. --&gt;}
 [^${1}]: ${2:type your reference text here}</string>
